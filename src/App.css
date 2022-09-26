@@ -1,3 +1,4 @@
+/* origianl */
 .App {
   text-align: center;
 }
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main_title {
+  display: flex;
+  background: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+.Link {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal {
+  padding-left: 20px;
+}
+
+/*Pages's Containers*/
+.main_page_container {
+  display: flex;
+  width: 80%;
+  background: whitesmoke;
+  margin: 0px auto;
 }
