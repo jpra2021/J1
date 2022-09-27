@@ -3,11 +3,14 @@ import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "App.css";
 
+/*import styled-component*/
+import { Container } from "styles/app_style";
+import { PageTitle } from "styles/page_style";
 function Projects() {
   return (
-    <div className="page_container">
-      <h2>프로젝트 페이지 임시</h2>
-    </div>
+    <Container>
+      <PageTitle>프로젝트 페이지 임시</PageTitle>
+    </Container>
   );
 }
 
